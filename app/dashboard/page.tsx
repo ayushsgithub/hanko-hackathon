@@ -12,7 +12,6 @@ const DashboardPage = () => {
       <div className="bg-red-200 p-2 rounded-lg">
         <Link href={"/test"}>Home</Link>
       </div>
-
     </div>
   );
 };
