@@ -1,5 +1,5 @@
 import React from 'react'
-import { LogoutBtn } from '../components/Logout'
+import { LogoutBtn } from '../components/hanko/Logout'
 import Link from 'next/link'
 
 const page = () => {
