@@ -19,7 +19,7 @@ export function LogoutBtn() {
   const logout = async () => {
     try {
       await hanko?.user.logout();
-      router.push("/login");
+      router.push("/");
       router.refresh();
       return;
     } catch (error) {

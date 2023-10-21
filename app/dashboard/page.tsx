@@ -4,13 +4,18 @@ import Link from "next/link";
 
 const DashboardPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="flex flex-col p-4 items-center h-screen bg-[#262B35]">
       <HankoProfile />
-      <div className="bg-red-200 p-2 rounded-lg">
-        <LogoutBtn />
-      </div>
-      <div className="bg-red-200 p-2 rounded-lg">
-        <Link href={"/test"}>Home</Link>
+      <div className="flex mt-5">
+      <div className="bg-white p-3 rounded-lg m-2">
+          <Link href="/home">
+            <p className="text-blue-600 hover:underline">Home</p>
+          </Link>
+        </div>
+        <div className="bg-red-400 p-3 rounded-lg m-2">
+          <LogoutBtn />
+        </div>
+
       </div>
     </div>
   );
