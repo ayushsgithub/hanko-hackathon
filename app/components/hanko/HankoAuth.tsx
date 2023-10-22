@@ -22,7 +22,7 @@ export default function HankoAuth() {
 
   const redirectAfterLogin = useCallback(() => {
     // successfully logged in, redirect to a page in your application
-    router.replace("/home");
+    router.replace("/gallery");
   }, [router]);
 
   useEffect(
