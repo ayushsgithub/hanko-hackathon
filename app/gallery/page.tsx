@@ -15,7 +15,7 @@ const page = async () => {
   // console.log(images);
 
   return (
-    <div className="bg-gradient-to-br from-[#040c25] to-[#230430]">
+    <div className="bg-gradient-to-br from-[#040c25] to-[#230430] scroll-m-1">
       <div className="pt-3 sticky top-0 z-10">
         <Header />
       </div>

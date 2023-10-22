@@ -58,8 +58,3 @@ hanko-profile {
   /* Button Styles */
   --button-min-width: max-content;
 }
-
-
-.gradient-radial {
-  background: radial-gradient(circle farthest-side at 50% 60%, rgba(53, 77, 255, 0.2), transparent 57%);
-}
