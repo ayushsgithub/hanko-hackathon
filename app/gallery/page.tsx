@@ -10,7 +10,7 @@ const page = async () => {
 
   const { data: images } = await supabase.from("gallery").select("*");
   if (!images) {
-    return <div>not found</div>;
+    return <div>No data found</div>;
   }
   // console.log(images);
 
