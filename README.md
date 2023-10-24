@@ -14,6 +14,9 @@ This project is a dynamic web application built using the Next.js, Supabase, Tai
 
 ### This login page is the replica of official [hanko_io](https://cloud.hanko.io/login) login page
 
+![gallery_page](https://github.com/ayushsgithub/hanko-hackathon/blob/main/public/gallery_page.png?raw=true)
+
+
 ## Installation
 
 First, clone the repository:
